@@ -1,0 +1,233 @@
+.breadcrumb-section {
+    position: relative;
+}
+.breadcrumb-section:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.breadcrumb-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #07212e;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.breadcrumb-section .breadcrumb-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.breadcrumb-section .breadcrumb-text p {
+    color: #f28123;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.breadcrumb-section .breadcrumb-text h1 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.pb-3 {
+    padding-bottom: 1rem !important;
+}
+h2,
+.h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+}
+.orange-text {
+    color: #f28123;
+}
+
+.feature-bg {
+    position: relative;
+    margin: 150px 0;
+}
+
+.feature-bg:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    content: "";
+    background-image: url(../assets/img/feature-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #cacaca;
+    box-shadow: 0 0 20px #cacaca;
+    border-bottom-left-radius: 5px;
+}
+
+.team-bg {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.single-team-item {
+    position: relative;
+}
+
+.single-team-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.single-team-item h4 span {
+    font-size: 70%;
+    display: block;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+ul.social-link-team {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul.social-link-team li {
+    display: inline-block;
+}
+
+ul.social-link-team li a {
+    color: #fff;
+    background-color: #f28123;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin: 5px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+:before,
+*::after {
+    box-sizing: border-box;
+}
+.list-box {
+    overflow: hidden;
+    letter-spacing: 0.5px;
+
+    .content {
+        h3 {
+            display: block;
+            line-height: 22px;
+            font-size: 18px;
+            margin-bottom: 4px;
+        }
+
+        p {
+            margin-bottom: 0px;
+            opacity: 0.75;
+        }
+    }
+
+    .list-icon i {
+        display: block;
+        font-size: 24px;
+        margin-right: 15px;
+        $primary-color: #ff0000;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        line-height: 60px;
+        border: 2px #ff0000 dotted;
+        color: #f28123;
+        border-radius: 999px;
+    }
+}
+.fa-shipping-fast:before {
+    content: "\f48b";
+}
+.shop-banner {
+    position: relative;
+    background-color: #f5f5f5;
+    background-image: url(../assets/img/1.jpg);
+    background-size: cover;
+    padding: 110px 0px 115px;
+
+    h3 {
+        position: relative;
+        font-size: 50px;
+        line-height: 1.2em;
+        margin-bottom: 0px;
+    }
+
+    .sale-percent {
+        position: relative;
+        font-size: 60px;
+        font-weight: 700;
+        $primary-color: #ff0000;
+
+        span {
+            position: relative;
+            font-size: 24px;
+            line-height: 1.1em;
+            $text-color: #000000;
+            font-weight: 400;
+            text-align: center;
+            margin-right: 10px;
+            display: inline-block;
+        }
+    }
+}
+.team-bg {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.team-bg-1 {
+    background-image: url(../assets/img/team/team-1.jpg);
+}
+.team-bg-2 {
+    background-image: url(../assets/img/team/team-2.jpg);
+}
+.team-bg-3 {
+    background-image: url("../assets/img/team/team-3.jpg");
+}

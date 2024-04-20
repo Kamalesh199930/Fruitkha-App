@@ -1,0 +1,33 @@
+.logo-carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 100px;
+}
+
+.single-logo-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.single-logo-item:last-child {
+    margin-right: 0;
+}
+
+.single-logo-item img {
+    max-width: 100%;
+    height: auto;
+}
+.section-title {
+    margin-bottom: 80px;
+}
+.section-title h3 {
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.section-title h3 {
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
